@@ -1765,11 +1765,11 @@ game.Players.PlayerRemoving:Connect(function ()
 end)
 
 
----=== Getting instances ===----
-
-local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2
-
-----=== Change if u want ===----
-
-   title2.Text = "Developed by DXP Team and Shoe V4"
-      kavoUi:BGLoader(13698057108) --- This is the id from the background  
+---=== Getting instances ===---- 
+  
+ local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2 
+  
+ ----=== Change if u want ===---- 
+  
+    title2.Text = "Developed by DXP Team and Shoe V4" 
+       kavoUi:BGLoader(13711695223) --- This is the id from the background  
