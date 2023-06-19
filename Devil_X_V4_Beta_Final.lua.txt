@@ -1776,7 +1776,7 @@ Tab1Section:NewButton("Pls donate", "auto farm ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
 end)
 
-Tab1Section:NewButton("Spider Man Fe", "Animation ", function()
+Tab1Section:NewButton("Spider Man Fe", "Animation Script ", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
 end)
 
