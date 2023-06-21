@@ -2,7 +2,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/mai
 
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/wAuqhZ3X"))()
-local window = kavoUi.CreateLib("Devil X ","DarkTheme")
+local window = kavoUi.CreateLib("Devil X V5 ","DarkTheme")
 
 ---Tabs
 
@@ -1778,6 +1778,10 @@ end)
 
 Tab7Section:NewButton("Spider Man Fe", "Animation Script ", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
+end)
+
+Tab7Section:NewButton("chat bypasser V2", "it works ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheScriptShowcaser/HonkBypasses/main/Protected_1590505194788454.lua.txt"))()
 end)
 
 
