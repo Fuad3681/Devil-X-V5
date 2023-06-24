@@ -5,6 +5,8 @@ local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/wAuqhZ3X"))()
 local window = kavoUi.CreateLib("Devil X V5 ","DarkTheme")
 
 ---Tabs
+local Tab10 = window:NewTab("Personal")
+local Tab10Section = Tab9:NewSection("Personal stuff")
 
 local Tab1 = window:NewTab("Hubs")
 local Tab1Section = Tab1:NewSection("Main")
@@ -39,7 +41,7 @@ local Tab9Section = Tab9:NewSection("Utils stuff")
 local players = game:GetService("Players")
 local user = players.LocalPlayer
 
-Tab9Section:NewButton("Username : " .. game.Players.LocalPlayer.Name .. " ","No description",function()
+Tab10Section:NewButton("Username : " .. game.Players.LocalPlayer.Name .. " ","No description",function()
 end)
 
 
